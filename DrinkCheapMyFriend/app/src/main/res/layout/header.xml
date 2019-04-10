@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/header"
+    >
+
+    <TextView
+        android:id="@+id/varenavn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Varenavn"
+        android:textAlignment="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:id="@+id/volum1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Volum i liter"
+        android:textAlignment="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/pris1"
+        android:layout_width="0dp"
+        android:text="Pris per stk."
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/prosent1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textSize="20dip"
+        android:text="%"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
